@@ -53,7 +53,7 @@ To use in a template, the value can be printed by using curly braces {{variableN
 
 ## Webpack Compilation
 
-The curremt version of Webpack version (>4) requires the Webpack CLI to bundle the app. Install the CLI:
+The current version of Webpack version (>4) requires the Webpack CLI to bundle the app. Install the CLI:
 
 `npm install --save-dev webpack-cli`
 
