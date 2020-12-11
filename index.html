@@ -9,8 +9,11 @@
 <body>
   <div id="vue-app"> </div>
 
+  <!-- Using a static payload file with localhost;
+    Todo: convert to Drupal route -->
   <script>
-    var colors = ["red", "yellow", "green", "blue"];
+    var baseUrl = "http://localhost:8080/data.json"
+    var products = ["814", "900", "914"];
   </script>
 
   <script src="dist/out-bundle.js"></script>
